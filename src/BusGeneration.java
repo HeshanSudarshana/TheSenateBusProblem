@@ -1,6 +1,3 @@
-/**
- * @author heshan
- **/
 public class BusGeneration extends Thread {
 
     private final SharedData sharedData;

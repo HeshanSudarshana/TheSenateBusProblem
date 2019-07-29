@@ -1,6 +1,3 @@
-/**
- * @author heshan
- **/
 public class Rider extends Thread {
 
     private final SharedData sharedData;

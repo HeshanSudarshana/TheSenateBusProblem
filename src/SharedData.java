@@ -1,9 +1,6 @@
 import java.util.concurrent.Semaphore;
 import java.util.concurrent.atomic.AtomicInteger;
 
-/**
- * @author heshan
- **/
 public class SharedData {
     private final AtomicInteger waiting = new AtomicInteger(0);    // atomic integer to keep the waiting rider count
     private final Semaphore mutex = new Semaphore(1);  // mutex to protect the waiting count variable

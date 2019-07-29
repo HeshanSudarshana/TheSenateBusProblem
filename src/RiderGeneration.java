@@ -1,6 +1,3 @@
-/**
- * @author heshan
- **/
 public class RiderGeneration extends Thread {
 
     private final SharedData sharedData;

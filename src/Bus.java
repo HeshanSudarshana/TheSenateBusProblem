@@ -1,8 +1,3 @@
-import java.util.concurrent.Semaphore;
-
-/**
- * @author heshan
- **/
 public class Bus extends Thread {
 
     private final int MAX_BOARDERS = 50;
