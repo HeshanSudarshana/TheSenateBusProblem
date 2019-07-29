@@ -4,7 +4,7 @@
 public class RiderGeneration extends Thread {
 
     private final SharedData sharedData;
-    private final int INTERVAL_MEAN = 300; // mean value for rider generation
+    private final int INTERVAL_MEAN = 30000; // mean value for rider generation
     private long interval;
 
     @Override

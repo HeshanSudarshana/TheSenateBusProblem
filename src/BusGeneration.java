@@ -4,7 +4,7 @@
 public class BusGeneration extends Thread {
 
     private final SharedData sharedData;
-    private final int INTERVAL_MEAN = 1200; // mean value for bus generation
+    private final int INTERVAL_MEAN = 1200000; // mean value for bus generation
     private long interval;
 
     @Override
